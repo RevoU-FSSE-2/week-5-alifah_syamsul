@@ -32,8 +32,5 @@ open index.html```
 ## Dependencies
 The project uses a CSS file for styling (styles.css), and images and other assets are stored in the assets directory.
 
-## Contributing
-Contributions are welcome. Please fork the repository and create a pull request with your changes.
-
-## License
-This project is licensed under the terms of the MIT license.
+## Deployed
+This website is deployed to https://sensational-axolotl-c46f07.netlify.app
