@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Situs Web untuk Mengadopsi Kucing</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-bar">
+            <div class="logo-container">
+                <a href="index.html"><img src="assets/animated-logo.apng" alt="Adopt a Pet animated logo" class="logo"></a>
+            </div>
+            <div class="nav-buttons">
+                <button class="signup">Daftar</button>
+                <button class="login">Masuk</button>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <div class="nav-link">Pengetahuan mengenai memelihara kucing</div>
+                    <ul class="sub-menu">
+                        <li><a href="cat-basic-care.html">Pemeliharaan dasar kucing</a></li>
+                        <li><a href="cat-behaviour-and-training.html">Perilaku dan pelatihan untuk kucing</a></li>
+                        <li><a href="cat-health.html">Kesehatan kucing</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-link">Ikut membantu</div>
+                    <ul class="sub-menu">
+                        <li><a href="donate.html">Donasi</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="contact-us.html" class="nav-link">Hubungi kami</a>
+                </li>
+            </ul>
+            <div class="hamburger"> 
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <!-- The dark mode toggle --> <!--
+            <div class="toggle-switch">
+                <input type="checkbox" id="dark-mode-toggle" class="toggle-switch-checkbox">
+                <label for="dark-mode-toggle" class="toggle-switch-label"></label>
+                <span id="toggle-text">Light mode</span> -->
+            </div>
+        </nav>
+    </header>
+
+    <main class="main" id="index_main">
+
+        <section class="main-section" id="index_main-section">
+
+            <div class="background">
+                <img class="background-image" src="assets/background-image.avif" alt="background">
+                <div class="overlay" id="index_overlay"></div>
+            </div>
+            
+            <div class="content-container">
+
+                <div class="main-title-subtitle">
+                    <h1 class="main-title">Siap mengadopsi kucing kesayangan kamu berikutnya?</h1>
+                    <h2 class="main-subtitle">Yuk, mulai. Cari kucing yang membutuhkan rumah dari <i>shelter</i> maupun individu.</h2>
+                </div>
+
+                <form>
+                    <div class="form-field">
+                        <input type="text" name="location" placeholder="Kota">
+                    </div>
+                    <div class="selectors">
+                        <select name="age" value="Usia kucing">
+                            <option value="kitten">Anak kucing</option>
+                            <option value="teenage">Remaja</option>
+                            <option value="adult">Dewasa</option>
+                            <option value="senior">Senior</option>
+                        </select>
+                        <select name="breed" value="Ras kucing">
+                            <option value="anggora">Anggora</option>
+                            <option value="persia">Persia</option>
+                            <option value="maine-coon">Maine coon</option>
+                            <option value="siam">Siam</option>
+                            <option value="domestic">Domestik campuran</option>
+                            <option value="ragdoll">Ragdoll</option>
+                            <option value="sphynx">Sphynx</option>
+                            <option value="russian-blue">Russian Blue</option>
+                            <option value="british-shorthair">British Shorthair</option>
+                            <option value="bengal">Bengal</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <input type="submit" value="Cari 🔍">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="carousel" id="index_carousel">
+            <div id="carousel_title-subtitle">
+                <h1 class="contents-title" id="carousel_title">Temui calon hewan peliharaan disorot</h1>
+                <h2 class="contents-subtitle" id="carousel_subtitle">Kami secara khusus menampilkan beberapa hewan peliharaan yang sedang mencari rumah baru dengan segera.</h2>
+            </div>
+            <div class="carousel-container" id="index_carousel-container">
+                <div class="carousel-slide" id="index_carousel-slide">
+                    <div class="carousel-item" id="index_carousel-item_1">
+                        <img src="assets/mainecoon-cat.jpg" alt="Anak kucing Maine coon: Whiskers">
+                        <div class="carousel-item-info" id="index_carousel-item-info_1">
+                            <h3><strong>Whiskers</strong></h3>
+                            <p>Usia: <b>Anak kucing</b></p>
+                            <p>Ras: <b>Maine coon</b></p>
+                            <p>Lokasi: <b>Jakarta</b></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" id="index_carousel-item_2">
+                        <img src="assets/siamese-cat.jpg" alt="Kucing Siam dewasa: Luna">
+                        <div class="carousel-item-info" id="index_carousel-item-info_2">
+                            <h3><strong>Luna</strong></h3>
+                            <p>Usia: <b>Kucing dewasa</b></p>
+                            <p>Ras: <b>Siam</b></p>
+                            <p>Lokasi: <b>Bali</b></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" id="index_carousel-item_3">
+                        <img src="assets/persian-cat.jpg" alt="Kucing Persia remaja: Oliver">
+                        <div class="carousel-item-info" id="index_carousel-item-info_3">
+                            <h3><strong>Oliver</strong></h3>
+                            <p>Usia: <b>Kucing remaja</b></p>
+                            <p>Ras: <b>Persia</b></p>
+                            <p>Lokasi: <b>Bandung</b></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" id="index_carousel-item_4">
+                        <img src="assets/bengal-cat.jpg" alt="Kucing Bengal senior: Simba">
+                        <div class="carousel-item-info" id="index_carousel-item-info_4">
+                            <h3><strong>Simba</strong></h3>
+                            <p>Usia: <b>Kucing senior</b></p>
+                            <p>Ras: <b>Bengal</b></p>
+                            <p>Lokasi: <b>Surabaya</b></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" id="index_carousel-item_5">
+                        <img src="assets/ragdoll-cat.webp" alt="Kucing Ragdoll dewasa: Nala">
+                        <div class="carousel-item-info" id="index_carousel-item-info_5">
+                            <h3><strong>Nala</strong></h3>
+                            <p>Usia: <b>Kucing dewasa</b></p>
+                            <p>Ras: <b>Ragdoll</b></p>
+                            <p>Lokasi: <b>Yogyakarta</b></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" id="index_carousel-item_6">
+                        <img src="assets/britishshorthair-cat.jpg" alt="Anak kucing British Shorthair: Gizmo">
+                        <div class="carousel-item-info" id="index_carousel-item-info_6">
+                            <h3><strong>Gizmo</strong></h3>
+                            <p>Usia: <b>Anak kucing</b></p>
+                            <p>Ras: <b>British Shorthair</b></p>
+                            <p>Lokasi: <b>Medan</b></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" id="index_carousel-item_7">
+                        <img src="assets/russianblue-cat.jpg" alt="Kucing Russian Blue senior: Coco">
+                        <div class="carousel-item-info" id="index_carousel-item-info_7">
+                            <h3><strong>Coco</strong></h3>
+                            <p>Usia: <b>Kucing senior</b></p>
+                            <p>Ras: <b>Russian Blue</b></p>
+                            <p>Lokasi: <b>Semarang</b></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" id="index_carousel-item_8">
+                        <img src="assets/sphynx-cat.jpg" alt="Kucing Sphynx dewasa: Max">
+                        <div class="carousel-item-info" id="index_carousel-item-info_8">
+                            <h3><strong>Max</strong></h3>
+                            <p>Usia: <b>Kucing dewasa</b></p>
+                            <p>Ras: <b>Sphynx</b></p>
+                            <p>Lokasi: <b>Palembang</b></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" id="index_carousel-item_9">
+                        <img src="assets/domesticshorthair-cat.webp" alt="Kucing domestik remaja: Milo">
+                        <div class="carousel-item-info" id="index_carousel-item-info_9">
+                            <h3><strong>Milo</strong></h3>
+                            <p>Usia: <b>Kucing remaja</b></p>
+                            <p>Ras: <b>Domestik campuran</b></p>
+                            <p>Lokasi: <b>Denpasar</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+              <button class="carousel-control prev">&lt;</button>
+              <button class="carousel-control next">&gt;</button>
+            </div>
+        </section>
+          
+        <article class="benefits" id="index_benefits">
+            <div id="benefits_title-subtitle">
+                <h1 class="contents-title">Gunakan web kami</h1>
+                <h2 class="contents-subtitle">Pelajari bagaimana kamu bisa menggunakan web kami untuk mengadopsi hewan peliharaan kamu berikutnya</h2>
+            </div>
+            <div class="article-content-box">
+                <img class="article-icon" src="assets/icon-pencil.svg" alt="Icon">
+                <p class="article-content-text">Dapatkan perincian biaya yang kamu butuhkan.</p>
+            </div>
+            <div class="article-content-box">
+                <img class="article-icon" src="assets/icon-paw.svg" alt="Icon">
+                <p class="article-content-text">Butuh bantuan mencari hewan peliharaan yang sesuai? Kami akan mengirimi kamu email rekomendasi.</p>
+            </div>
+            <div class="article-content-box">
+                <img class="article-icon" src="assets/icon_house.svg" alt="Icon">
+                <p class="article-content-text">Perlu merumahkan kembali peliharaan kamu? Kami akan membantu!</p>
+            </div>
+            <div class="article-content-box">
+                <img class="article-icon" src="assets/icon-stethoscope.svg" alt="Icon">
+                <p class="article-content-text">Lindungi hewan peliharaan kamu dengan asuransi nasional.</p>
+            </div>
+        </article>
+        
+        <aside class="reasons" id="index_reasons">
+            <div id="reasons_title-subtitle">
+                <h1 class="contents-title">Beberapa manfaat memelihara hewan</h1>
+                <h2 class="contents-subtitle">Masih ragu untuk mengadopsi? Baca manfaatnya di bawah ini.</h2>
+            </div>
+            <div class="content-box">
+                <h3 class="content-title">Manfaat Menerima Peliharaan</h3>
+                <p class="content-text">Menerima peliharaan dapat memberikan banyak manfaat. Misalnya, hewan peliharaan dapat memberikan kenyamanan dan persahabatan, serta membantu mengurangi stres dan kecemasan.</p>
+        
+                <h3 class="content-title">Membantu Hewan yang Membutuhkan</h3>
+                <p class="content-text">Dengan mengadopsi hewan peliharaan, Anda juga membantu memberikan rumah yang baik bagi hewan yang membutuhkan. Banyak hewan di rumah suaka membutuhkan rumah dan keluarga yang akan merawat mereka.</p>
+        
+                <h3 class="content-title">Pendidikan Anak dan Empati</h3>
+                <p class="content-text">Memiliki hewan peliharaan di rumah dapat menjadi alat pendidikan yang berharga bagi anak-anak. Hal ini dapat mengajarkan mereka tentang tanggung jawab dan empati terhadap makhluk hidup lainnya.</p>
+        
+                <h3 class="content-title">Kesehatan dan Kebugaran</h3>
+                <p class="content-text">Mempunyai hewan peliharaan, khususnya yang aktif seperti anjing, dapat mendorong gaya hidup yang lebih sehat dan aktif. Misalnya, berjalan-jalan dengan anjing dapat memberikan olahraga teratur dan meningkatkan kesehatan kardiovaskular.</p>
+        
+                <h3 class="content-title">Memilih Hewan Peliharaan yang Tepat</h3>
+                <p class="content-text">Sebelum memutuskan untuk memelihara hewan, penting untuk memilih jenis hewan peliharaan yang sesuai dengan gaya hidup Anda. Pertimbangkan waktu, ruang, dan sumber daya yang Anda miliki sebelum membuat keputusan.</p>
+        
+                <h3 class="content-title">Perawatan dan Komitmen</h3>
+                <p class="content-text">Ingatlah bahwa memiliki hewan peliharaan adalah komitmen jangka panjang yang membutuhkan waktu, tenaga, dan sumber daya. Ini mencakup memastikan bahwa hewan Anda mendapatkan makanan yang tepat, perawatan medis yang memadai, dan banyak waktu untuk bermain dan berolahraga.</p>
+            </div>
+        </aside>        
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Tentang kami</h4>
+                    <p>Situs Web untuk Mengadopsi Kucing merupakan platform adopsi online yang berfokus pada kesejahteraan kucing dan menemukan rumah baru yang mencintai dan merawat mereka.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hubungi kami</h4>
+                    <p>Email: info@adoptacat.id</p>
+                    <p>Telepon: (021) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Ikuti kami</h4>
+                    <p><a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Situs Web untuk Mengadopsi Kucing. Semua hak dilindungi undang-undang.</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
