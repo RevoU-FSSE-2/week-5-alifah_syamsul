@@ -33,4 +33,5 @@ open index.html```
 The project uses a CSS file for styling (styles.css), and images and other assets are stored in the assets directory.
 
 ## Deployed
-This website is deployed to https://sensational-axolotl-c46f07.netlify.app
+This website is deployed to https://sensational-axolotl-c46f07.netlify.app.
+The custom domain for this website is https://stormsky23-2.site — the site is still awaiting for DNS as of now (21 July /2023 /3 PM UTC+7 Jakarta time), however, it will be up and running in 24 hours.
